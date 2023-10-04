@@ -1,0 +1,54 @@
+{
+  "name": "@nutsloop/typescript-maps-and-types",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "description": "nutsloop - Typescript Maps & Types",
+  "type": "module",
+  "main": "index.js",
+  "types": "./types/index.d.ts",
+  "files": [
+    "lib",
+    "index.js",
+    "types"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "clean": "./scripts/clean.sh",
+    "lint": "npx eslint . --ext .ts",
+    "lint-fix": "npx eslint . --fix --ext .ts",
+    "tsc-watch": "npx tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": "^20"
+  },
+  "keywords": [
+    "typescript maps and types",
+    "nutsloop",
+    "blog",
+    "post"
+  ],
+  "author": {
+    "name": "nutsloop",
+    "email": "nutsloop@proton.me",
+    "url": "https://github.com/nutsloop"
+  },
+  "funding": {
+    "type": "buy-me-a-coffee",
+    "url": "https://www.buymeacoffee.com/nutsloop"
+  },
+  "homepage": "https://github.com/nutsloop/typescript-maps-and-types#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nutsloop/typescript-maps-and-types.git"
+  }
+}
